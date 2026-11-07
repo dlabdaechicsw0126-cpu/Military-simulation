@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1720 1050" role="img" aria-labelledby="title desc">
+  <title id="title">훈련소 적응 시뮬레이터 캐릭터 시트</title>
+  <desc id="desc">이름을 정하지 않은 주인공 훈련병과 세 동기, 중사 교관을 그린 따뜻한 웹툰풍 캐릭터 시트</desc>
+  <defs>
+    <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#f7f2e7"/><stop offset="1" stop-color="#e8e2d2"/></linearGradient>
+    <linearGradient id="uniform" x2="0" y2="1"><stop stop-color="#8d9460"/><stop offset="1" stop-color="#656c40"/></linearGradient>
+    <linearGradient id="trainer" x2="0" y2="1"><stop stop-color="#65724d"/><stop offset="1" stop-color="#414e38"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#384033" flood-opacity=".12"/></filter>
+    <style>
+      .kr { font-family: "Noto Sans KR", "Malgun Gothic", Arial, sans-serif; }
+      .ink { stroke: #30352f; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .fine { stroke: #45493b; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .title { font-size: 39px; font-weight: 800; fill: #30352f; letter-spacing: -1px; }
+      .subtitle { font-size: 17px; fill: #747663; }
+      .name { font-size: 23px; font-weight: 800; fill: #30352f; }
+      .rank { font-size: 15px; font-weight: 700; fill: #f5f0df; }
+      .mood { font-size: 15px; fill: #707364; }
+    </style>
+    <g id="basic-uniform">
+      <!-- boots and legs -->
+      <path d="M117 535 L151 535 L147 701 Q143 716 137 730 L96 730 Q91 722 100 710 L114 690 Z" fill="#525641" class="ink"/>
+      <path d="M159 535 L194 535 L197 690 L211 710 Q218 724 207 730 L166 730 Q159 721 159 706 Z" fill="#525641" class="ink"/>
+      <path d="M99 710 Q115 716 139 708 L143 728 Q128 740 93 734 Q88 725 99 710Z" fill="#353a35" class="ink"/>
+      <path d="M165 708 Q185 716 207 709 L216 729 Q207 740 169 734 Q161 726 165 708Z" fill="#353a35" class="ink"/>
+      <!-- torso -->
+      <path d="M122 363 Q139 350 155 350 Q174 350 191 363 L211 397 L199 547 Q155 565 109 547 L99 398 Z" fill="url(#uniform)" class="ink"/>
+      <!-- sleeves -->
+      <path d="M120 377 Q105 375 98 394 L80 469 Q77 485 90 493 L108 499 L130 428 Z" fill="#777e51" class="ink"/>
+      <path d="M190 377 Q205 375 212 394 L229 469 Q232 485 219 493 L201 499 L180 428 Z" fill="#777e51" class="ink"/>
+      <!-- hands -->
+      <path d="M81 480 Q72 489 77 504 Q82 516 95 509 L106 494 Z" fill="#d7a784" class="fine"/>
+      <path d="M228 480 Q237 489 232 504 Q227 516 214 509 L203 494 Z" fill="#d7a784" class="fine"/>
+      <!-- neck and collar -->
+      <path d="M141 336 L141 370 Q155 383 169 370 L169 336 Z" fill="#d3a17f" class="fine"/>
+      <path d="M124 366 L143 358 L155 377 L137 394 L118 378 Z" fill="#c7c19d" class="fine"/>
+      <path d="M186 366 L167 358 L155 377 L173 394 L192 378 Z" fill="#c7c19d" class="fine"/>
+      <!-- pockets and buttons -->
+      <path d="M117 419 L145 419 L144 449 L116 449 Z M165 419 L193 419 L194 449 L166 449 Z" fill="#737a4d" class="fine"/>
+      <path d="M117 420 L131 430 L145 420 M165 420 L179 430 L193 420" fill="none" class="fine"/>
+      <path d="M155 389 L155 530" fill="none" class="fine"/>
+      <circle cx="155" cy="405" r="3" fill="#dad2aa"/><circle cx="155" cy="438" r="3" fill="#dad2aa"/><circle cx="155" cy="471" r="3" fill="#dad2aa"/><circle cx="155" cy="504" r="3" fill="#dad2aa"/>
+      <!-- blank name strip -->
+      <rect x="124" y="395" width="28" height="8" rx="3" fill="#d9d4b9"/>
+      <rect x="159" y="395" width="28" height="8" rx="3" fill="#d9d4b9"/>
+    </g>
+  </defs>
+
+  <rect width="1720" height="1050" fill="url(#paper)"/>
+  <circle cx="1590" cy="85" r="120" fill="#ddd9c5" opacity=".38"/>
+  <circle cx="115" cy="1000" r="180" fill="#d9ddc9" opacity=".34"/>
+  <path d="M64 154 H1656" stroke="#d7d2c2" stroke-width="2"/>
+  <text x="70" y="81" class="kr title">훈련소, 처음 만난 사람들</text>
+  <text x="72" y="119" class="kr subtitle">선택에 따라 달라지는 표정과 관계 · 캐릭터 콘셉트 시트</text>
+  <rect x="1452" y="57" width="194" height="46" rx="23" fill="#48513d"/>
+  <text x="1549" y="86" text-anchor="middle" class="kr rank">적응 이야기 · 01</text>
+
+  <!-- card backgrounds -->
+  <g filter="url(#shadow)">
+    <rect x="54" y="184" width="304" height="785" rx="24" fill="#fffdf7"/>
+    <rect x="378" y="184" width="304" height="785" rx="24" fill="#fffdf7"/>
+    <rect x="702" y="184" width="304" height="785" rx="24" fill="#fffdf7"/>
+    <rect x="1026" y="184" width="304" height="785" rx="24" fill="#fffdf7"/>
+    <rect x="1350" y="184" width="304" height="785" rx="24" fill="#fffdf7"/>
+  </g>
+  <g fill="#e9eadc">
+    <rect x="70" y="202" width="272" height="555" rx="17"/><rect x="394" y="202" width="272" height="555" rx="17"/>
+    <rect x="718" y="202" width="272" height="555" rx="17"/><rect x="1042" y="202" width="272" height="555" rx="17"/>
+    <rect x="1366" y="202" width="272" height="555" rx="17"/>
+  </g>
+  <g fill="#d9dfce" opacity=".7">
+    <circle cx="118" cy="254" r="25"/><circle cx="437" cy="244" r="18"/><circle cx="956" cy="263" r="23"/><circle cx="1277" cy="247" r="27"/><circle cx="1590" cy="255" r="20"/>
+  </g>
+
+  <!-- protagonist -->
+  <g transform="translate(70 0)">
+    <ellipse cx="155" cy="735" rx="83" ry="13" fill="#41473a" opacity=".15"/>
+    <use href="#basic-uniform"/>
+    <path d="M124 286 Q127 252 157 250 Q188 252 190 285 L185 326 Q178 352 156 354 Q132 351 125 326 Z" fill="#d9ad8c" class="ink"/>
+    <path d="M121 295 Q116 258 142 247 Q174 237 190 266 L190 287 Q175 277 160 274 Q142 291 121 295Z" fill="#292d2b" class="ink"/>
+    <path d="M138 309 Q145 306 151 309 M164 309 Q171 306 177 309" fill="none" class="fine"/>
+    <circle cx="145" cy="317" r="3" fill="#30352f"/><circle cx="170" cy="317" r="3" fill="#30352f"/>
+    <path d="M151 327 Q157 331 163 327" fill="none" class="fine"/>
+    <path d="M96 432 Q86 456 82 480 M214 432 Q224 456 228 480" fill="none" stroke="#59603f" stroke-width="8" opacity=".6"/>
+    <rect x="28" y="221" width="112" height="31" rx="15" fill="#fffdf7" opacity=".86"/>
+    <text x="84" y="242" text-anchor="middle" class="kr" font-size="14" font-weight="700" fill="#65704e">이름은 플레이어가</text>
+  </g>
+
+  <!-- Kim Doyun -->
+  <g transform="translate(394 0)">
+    <ellipse cx="155" cy="735" rx="83" ry="13" fill="#41473a" opacity=".15"/>
+    <use href="#basic-uniform"/>
+    <path d="M124 286 Q127 252 157 250 Q188 252 190 285 L185 326 Q178 352 156 354 Q132 351 125 326 Z" fill="#e0b28f" class="ink"/>
+    <path d="M121 291 Q119 260 145 248 Q174 239 191 267 L188 289 Q169 276 151 279 Q137 286 121 291Z" fill="#45372f" class="ink"/>
+    <path d="M137 308 Q144 304 150 308 M164 308 Q171 304 177 308" fill="none" class="fine"/>
+    <circle cx="145" cy="316" r="3" fill="#30352f"/><circle cx="170" cy="316" r="3" fill="#30352f"/>
+    <path d="M146 328 Q157 340 170 328" fill="none" class="fine"/>
+    <path d="M82 490 Q73 500 81 511 M228 490 Q237 500 229 511" fill="none" stroke="#d7a784" stroke-width="5" stroke-linecap="round"/>
+    <path d="M212 459 Q242 444 253 423" fill="none" stroke="#777e51" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="255" cy="419" r="12" fill="#d7a784" class="fine"/>
+    <path d="M248 412 Q257 400 268 407" fill="none" class="fine"/>
+  </g>
+
+  <!-- Jeong Haram -->
+  <g transform="translate(718 0)">
+    <ellipse cx="155" cy="735" rx="83" ry="13" fill="#41473a" opacity=".15"/>
+    <use href="#basic-uniform"/>
+    <path d="M124 286 Q127 252 157 250 Q188 252 190 285 L185 326 Q178 352 156 354 Q132 351 125 326 Z" fill="#d5a682" class="ink"/>
+    <path d="M120 297 Q118 260 145 248 Q175 241 191 269 L188 290 Q171 281 158 283 Q136 295 120 297Z" fill="#242827" class="ink"/>
+    <path d="M137 311 Q144 314 150 311 M164 311 Q171 314 177 311" fill="none" class="fine"/>
+    <circle cx="145" cy="318" r="3" fill="#30352f"/><circle cx="170" cy="318" r="3" fill="#30352f"/>
+    <path d="M148 333 Q157 328 166 333" fill="none" class="fine"/>
+    <path d="M100 390 Q78 425 83 471 L101 482 L117 430 M210 390 Q231 425 226 471 L208 482 L193 430" fill="none" stroke="#687046" stroke-width="8" opacity=".55"/>
+    <path d="M154 278 Q156 289 154 300" fill="none" stroke="#242827" stroke-width="4"/>
+  </g>
+
+  <!-- Park Jaewon -->
+  <g transform="translate(1042 0)">
+    <ellipse cx="155" cy="735" rx="83" ry="13" fill="#41473a" opacity=".15"/>
+    <use href="#basic-uniform"/>
+    <path d="M124 286 Q127 252 157 250 Q188 252 190 285 L185 326 Q178 352 156 354 Q132 351 125 326 Z" fill="#d9a985" class="ink"/>
+    <path d="M121 291 Q119 258 144 247 Q174 240 190 267 L188 290 Q164 279 143 286Z" fill="#302d2a" class="ink"/>
+    <path d="M137 308 L151 310 M164 310 L178 308" fill="none" class="fine"/>
+    <circle cx="145" cy="317" r="3" fill="#30352f"/><circle cx="170" cy="317" r="3" fill="#30352f"/>
+    <path d="M148 330 L164 330" fill="none" class="fine"/>
+    <path d="M83 400 L108 410 L115 443 M227 400 L202 410 L195 443" fill="none" stroke="#59603f" stroke-width="8"/>
+    <path d="M113 482 L103 500 M197 482 L207 500" fill="none" stroke="#d7a784" stroke-width="5" stroke-linecap="round"/>
+    <path d="M126 357 L155 380 L184 357" fill="none" stroke="#d7caa4" stroke-width="4"/>
+  </g>
+
+  <!-- Lee Junhyeok, trainer -->
+  <g transform="translate(1366 0)">
+    <ellipse cx="155" cy="735" rx="83" ry="13" fill="#41473a" opacity=".15"/>
+    <use href="#basic-uniform"/>
+    <path d="M124 286 Q127 252 157 250 Q188 252 190 285 L185 326 Q178 352 156 354 Q132 351 125 326 Z" fill="#c99470" class="ink"/>
+    <path d="M120 293 Q117 258 143 246 Q174 237 191 265 L190 290 L179 278 L167 285 L154 275 L142 286Z" fill="#252928" class="ink"/>
+    <path d="M136 309 Q143 306 150 309 M164 309 Q171 306 178 309" fill="none" class="fine"/>
+    <circle cx="145" cy="317" r="3" fill="#30352f"/><circle cx="171" cy="317" r="3" fill="#30352f"/>
+    <path d="M149 333 Q157 336 165 333" fill="none" class="fine"/>
+    <!-- instructor shoulder rank bars -->
+    <path d="M106 385 L126 377 L131 389 L111 397 Z M184 389 L189 377 L209 385 L204 397 Z" fill="#d8cfaa" class="fine"/>
+    <path d="M110 389 L126 383 M114 394 L129 388 M188 388 L204 394 M191 383 L207 389" fill="none" stroke="#4b523c" stroke-width="2.5"/>
+    <!-- clipboard -->
+    <path d="M210 431 L257 425 L268 516 L222 522 Z" fill="#e4d6b3" class="ink"/>
+    <path d="M224 450 L252 446 M226 463 L255 459 M228 476 L253 473 M230 489 L258 485" fill="none" stroke="#899075" stroke-width="3"/>
+    <path d="M213 492 Q221 487 226 494 L231 513 Q223 520 216 512Z" fill="#c99470" class="fine"/>
+  </g>
+
+  <!-- Labels -->
+  <g class="kr">
+    <rect x="76" y="784" width="112" height="30" rx="15" fill="#46513d"/><text x="132" y="804" text-anchor="middle" class="rank">훈련병</text>
+    <text x="76" y="850" class="name">주인공</text><text x="76" y="881" class="mood">이름은 플레이어가 정해요</text><text x="76" y="918" class="mood">처음의 긴장 · 달라지는 표정</text>
+
+    <rect x="400" y="784" width="112" height="30" rx="15" fill="#46513d"/><text x="456" y="804" text-anchor="middle" class="rank">훈련병</text>
+    <text x="400" y="850" class="name">김도윤</text><text x="400" y="881" class="mood">먼저 말을 건 동기</text><text x="400" y="918" class="mood">밝고 편하게 다가오는 성격</text>
+
+    <rect x="724" y="784" width="112" height="30" rx="15" fill="#46513d"/><text x="780" y="804" text-anchor="middle" class="rank">훈련병</text>
+    <text x="724" y="850" class="name">정하람</text><text x="724" y="881" class="mood">조용히 주변을 살피는 동기</text><text x="724" y="918" class="mood">마음을 열면 깊은 친구가 됨</text>
+
+    <rect x="1048" y="784" width="112" height="30" rx="15" fill="#46513d"/><text x="1104" y="804" text-anchor="middle" class="rank">훈련병</text>
+    <text x="1048" y="850" class="name">박재원</text><text x="1048" y="881" class="mood">승부욕 있고 반듯한 동기</text><text x="1048" y="918" class="mood">부딪힘도 이해도 선택에 달림</text>
+
+    <rect x="1372" y="784" width="112" height="30" rx="15" fill="#46513d"/><text x="1428" y="804" text-anchor="middle" class="rank">중사</text>
+    <text x="1372" y="850" class="name">이준혁</text><text x="1372" y="881" class="mood">훈련 교관</text><text x="1372" y="918" class="mood">엄격하지만 살피는 사람</text>
+  </g>
+  <text x="70" y="1013" class="kr" font-size="14" fill="#797b6b">※ 훈련병은 훈련소 시점의 호칭이며, 교관의 계급·역할은 이야기 설정입니다.</text>
+</svg>
